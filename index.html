@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css" />
+    <!-- my css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js"></script>
+    <!-- my JS -->
+    <script src="logic.js"></script>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/home-button.png" />
+    <title>Homepage</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div id="header">
+        
+        <!-- nav -->
+        <nav class="uk-navbar-container" uk-navbar id="nav">
+            <div class="uk-navbar-left">
+                <img class="icon" src="images/home-button.png" alt="icon">
+                <h1 class="name">homepage</h1>
+            </div>
+
+            <div class="uk-navbar-right">
+                <img class="nav" id="search" src="images/search.png" alt="search">
+                <img class="nav" src="images/chat.png" alt="chat">
+                <img class="nav" src="images/user.png" alt="profile">
+            </div>
+        </nav>
+        <!-- nav -->
+
+        <!-- tabs -->
+        <div id="tabs">
+            <ul class="tabs uk-child-width-expand" uk-tab>
+                <li class="uk-active">
+                    <a href="#">Following</a>
+                </li>
+                <li>
+                    <a href="#">Explore</a>
+                </li>
+            </ul>
+        </div>
+        <!-- tabs -->
+
+    </div>
+    <!-- header -->
+
+    <!-- feed -->
+    <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Hover</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Default</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Primary</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Secondary</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Secondary</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Secondary</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Secondary</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Secondary</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <!-- feed -->
+
+    <!-- footer -->
+    <nav class="uk-navbar-container" uk-navbar id="footer">
+        <div class="uk-navbar-center">
+            <img class="media" src="images/news.jpg" alt="news">
+            <img class="media" src="images/mic.jpg" alt="podcasts">
+            <img class="media" src="images/vid.jpg" alt="videos">
+            <img class="media" src="images/music.jpg" alt="music">
+            <img class="media" src="images/pic.jpg" alt="pictures">
+        </div>
+    </nav>
+    <!-- footer -->
+
+</body>
+
+</html>
